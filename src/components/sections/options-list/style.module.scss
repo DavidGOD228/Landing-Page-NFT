@@ -1,0 +1,21 @@
+.wrap {
+  padding: 0 20px;
+  background: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #343A3D;
+}
+
+.item {
+  padding-top: 68px;
+  padding-bottom: 68px;
+}

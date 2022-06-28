@@ -1,9 +1,10 @@
 import React from 'react'
+import {HomePage} from "./pages/home";
 
 function App() {
   return (
-    <div className="App">
-      Hello NFT World
+    <div className={'app'}>
+      <HomePage />
     </div>
   );
 }
