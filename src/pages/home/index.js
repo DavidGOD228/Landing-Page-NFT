@@ -6,6 +6,9 @@ import {Guarantee} from "../../components/sections/guarantee";
 import {Digital} from "../../components/sections/digital";
 import {Cyber} from "../../components/sections/cyber";
 import {OptionsList} from "../../components/sections/options-list";
+import {Ready} from "../../components/sections/ready";
+import {Synchronized} from "../../components/sections/synchronized";
+import {LiveMorph} from "../../components/sections/live-morph";
 
 
 const HomePage = () => {
@@ -19,6 +22,9 @@ const HomePage = () => {
       <Digital />
       <Cyber />
       <OptionsList />
+      <Ready />
+      <Synchronized />
+      <LiveMorph />
     </div>
   )
 }
