@@ -1,0 +1,97 @@
+.wrap {
+  height: 1337px;
+  background-size: 100% 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.dec {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.4);
+  z-index: 2;
+}
+
+.personWrap {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+}
+
+.person {
+  width: 100%;
+}
+
+.phone {
+  position: relative;
+  z-index: 10;
+}
+
+.phone img {
+  height: 599px;
+}
+
+.textWrap {
+  position: absolute;
+  transform: translateX(300px);
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.text {
+  color: #fff;
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 110%;
+  max-width: 300px;
+  transform: translateY(-70px);
+}
+
+@media screen and (max-width: 1000px) {
+  .wrap {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrap {
+    height: auto;
+    padding: 40px 0;
+  }
+  .personWrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .dec {
+    display: block;
+  }
+
+  .person {
+    height: 100%;
+    opacity: 0.33;
+  }
+
+  .textWrap {
+    position: static;
+    transform: translateX(0);
+  }
+
+  .text {
+    transform: translateY(0);
+  }
+}

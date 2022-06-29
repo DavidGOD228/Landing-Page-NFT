@@ -1,0 +1,141 @@
+.wrap {
+  background: #000;
+}
+
+.textWrap {
+  padding: 160px 20px 60px 20px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.textWrap h3 {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.textTop {
+  text-align: right;
+}
+
+.textCenter {
+
+}
+
+.textBottom {
+  text-align: right;
+  padding-right: 110px;
+}
+
+.bottomWrap {
+  height: 750px;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.listWrap {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 680px;
+}
+
+.list {
+  color: #fff;
+  width: 720px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.listItem {
+  display: grid;
+  grid-template-columns: 55px auto;
+  position: relative;
+}
+
+.listItemCenter {
+  height: 70%;
+}
+
+.listItemRight {
+  height: 40%;
+}
+
+@media screen and (max-width: 900px) {
+  .list {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  .textWrap h3 {
+    font-size: 70px;
+  }
+
+  .listItem,
+  .listItemCenter,
+  .listItemRight {
+    height: 300px;
+  }
+
+  .bottomWrap,
+  .listWrap {
+    height: auto;
+  }
+
+  .listWrap {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .listWrap {
+    padding-bottom: 300px;
+  }
+
+  .image {
+    height: 469px;
+  }
+
+  .textWrap h3 {
+    font-size: 48px;
+  }
+
+  .textTop,
+  .textCenter,
+  .textBottom {
+    text-align: left;
+    padding: 0;
+  }
+
+  .listItem {
+    height: auto;
+  }
+
+  .listItem {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  .textWrap {
+    padding: 120px 20px 40px 20px;
+  }
+
+  .listItemCenter,
+  .listItemRight {
+    display: none !important;
+  }
+}

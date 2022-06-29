@@ -1,0 +1,43 @@
+.lie {
+  background-size: auto 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 544px;
+}
+
+.wrap {
+  background: #000;
+}
+
+.title {
+  padding: 160px 20px 100px 20px;
+  width: 100%;
+  max-width: 800px;
+  font-family: 'HelveticaNeueCyr', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  color: #FFFFFF;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 800px) {
+  .lie {
+    height: 330px;
+  }
+
+  .title {
+    font-size: 56px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .lie {
+    height: 209px;
+  }
+}
