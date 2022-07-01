@@ -14,6 +14,7 @@ import {MetaMorph} from "../../components/sections/meta-morph";
 import {City} from "../../components/sections/city";
 import {Preview} from "../../components/sections/preview";
 import {UniqueMorphs} from "../../components/sections/unique-morphs";
+import {YourMorph} from "../../components/sections/your-morph";
 
 
 const HomePage = () => {
@@ -28,6 +29,7 @@ const HomePage = () => {
       <Digital />
       <Cyber />
       <OptionsList />
+      <YourMorph />
       <UniqueMorphs />
       <Ready />
       <Synchronized />

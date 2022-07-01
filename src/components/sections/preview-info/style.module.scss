@@ -1,4 +1,8 @@
 .wrap {
+  background: #f4f4f4;
+}
+
+.container {
   height: 810px;
   max-width: 1200px;
   margin: 0 auto;
@@ -62,7 +66,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .wrap {
+  .container {
     grid-template-columns: 1fr;
     padding: 50px 20px;
   }
