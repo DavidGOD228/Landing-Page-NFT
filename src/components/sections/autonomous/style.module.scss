@@ -1,0 +1,144 @@
+.wrap {
+  background: #000;
+  padding: 140px 20px;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-family: 'AvantGardeC', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 485px;
+  margin: 25px auto 80px auto;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+  row-gap: 60px;
+}
+
+.container > div:nth-child(2n) {
+  text-align: left;
+}
+
+.container > div:nth-child(2n - 1) {
+  text-align: right;
+}
+
+.rightWrap {
+  padding-top: 48px;
+}
+
+.phoneImage {
+  width: 260px;
+}
+
+.text {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.textWrap {
+  width: 100%;
+  max-width: 485px;
+  padding-top: 95px;
+}
+
+.smileWrap {
+  text-align: center;
+  margin-top: 42px;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .text {
+    font-size: 48px;
+  }
+}
+
+.bottomWrap {
+  padding: 200px 0 100px 0;
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bottomText {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120%;
+  /* or 96px */
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .wrap {
+    padding: 50px 20px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .container > div {
+    text-align: center !important;
+  }
+
+  .textWrap {
+    max-width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+
+  .rightWrap {
+    padding-top: 0;
+  }
+
+  .imageBlock {
+    grid-row: 3;
+  }
+
+  .smileWrap {
+    margin-top: 0;
+  }
+
+  .bottomWrap {
+    padding: 70px 0;
+  }
+
+  .bottomText {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+

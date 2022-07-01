@@ -9,12 +9,18 @@ import {OptionsList} from "../../components/sections/options-list";
 import {Ready} from "../../components/sections/ready";
 import {Synchronized} from "../../components/sections/synchronized";
 import {LiveMorph} from "../../components/sections/live-morph";
+import {Autonomous} from "../../components/sections/autonomous";
+import {MetaMorph} from "../../components/sections/meta-morph";
+import {City} from "../../components/sections/city";
+import {Preview} from "../../components/sections/preview";
+import {UniqueMorphs} from "../../components/sections/unique-morphs";
 
 
 const HomePage = () => {
 
   return (
     <div>
+      <Preview />
       <PreviewInfo />
       <About />
       <Information />
@@ -22,9 +28,13 @@ const HomePage = () => {
       <Digital />
       <Cyber />
       <OptionsList />
+      <UniqueMorphs />
       <Ready />
       <Synchronized />
       <LiveMorph />
+      <Autonomous />
+      <MetaMorph />
+      <City />
     </div>
   )
 }
