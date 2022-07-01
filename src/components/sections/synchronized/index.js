@@ -27,7 +27,6 @@ const Synchronized = () => {
                 title="Consciosness"
                 text="Human beings have awareness of themselves, others and their environment"
               />
-
             </div>
 
             <div className={`${c.listItem} ${c.listItemCenter}`}>
