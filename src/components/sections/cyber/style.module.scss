@@ -5,16 +5,16 @@
 .container {
   padding: 140px 20px 140px 20px;
   display: grid;
-  row-gap: 64px;
+  row-gap: 50px;
 }
 
 .title {
   font-family: 'HelveticaNeueCyr', serif;
   font-weight: 700;
   font-size: 96px;
-  line-height: 120%;
   text-align: center;
   color: #80898F;
+  line-height: 100%;
 }
 
 .title span {

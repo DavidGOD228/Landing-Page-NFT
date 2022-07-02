@@ -2,14 +2,15 @@ import React from 'react'
 import c from './style.module.scss'
 import metaIcon from '../../../assets/images/meta.png'
 import alanImage from '../../../assets/images/alan.png'
+import metaMorphImage from '../../../assets/images/metamorph.png'
 
 const Preview = () => {
 
   return (
     <div className={c.wrap}>
       <div className={c.container}>
-        <img src={metaIcon} alt=""/>
-        <h1 className={c.title}>metamorph</h1>
+        <img className={c.icon} src={metaIcon} alt=""/>
+        <img className={c.iconName} src={metaMorphImage} alt=""/>
       </div>
 
       <div className={c.image}>

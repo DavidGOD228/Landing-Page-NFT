@@ -128,7 +128,7 @@ const YourMorph = () => {
 
           <div className={c.parameters}>
             <h5 className={c.nameTitle}>Parametres</h5>
-            <h3 className={c.parametersName}>1.78 cm 76 kg</h3>
+            <h3 className={c.subtitle}>1.78 cm 76 kg</h3>
           </div>
 
           <div className={c.skill}>
