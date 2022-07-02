@@ -20,7 +20,7 @@ const Synchronized = () => {
 
         <div className={c.listWrap}>
           <div className={c.list}>
-            <div className={c.listItem}>
+            <div className={`${c.listItem} ${c.listItemLeft}`}>
               <SynchronizedLine />
 
               <SynchronizedContent

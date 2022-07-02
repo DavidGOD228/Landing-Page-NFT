@@ -1,15 +1,19 @@
 .wrap {
-  margin-top: 73px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   column-gap: 10px;
 }
 
 .image {
-  width: 260px;
+  height: 405px;
   border-radius: 8px;
 }
 
 .wrap > div:nth-child(3) {
   transform: translateY(-30px);
+}
+
+.imageWrap {
+
 }

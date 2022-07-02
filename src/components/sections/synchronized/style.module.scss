@@ -4,7 +4,7 @@
 
 .textWrap {
   padding: 160px 20px 60px 20px;
-  max-width: 950px;
+  max-width: 990px;
   margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .listWrap {
-  max-width: 1200px;
+  max-width: 1180px;
   padding: 0 20px;
   margin: 0 auto;
   height: 680px;
@@ -61,8 +61,12 @@
   position: relative;
 }
 
+.listItemLeft {
+  height: 93%;
+}
+
 .listItemCenter {
-  height: 70%;
+  height: 65%;
 }
 
 .listItemRight {
@@ -137,5 +141,9 @@
   .listItemCenter,
   .listItemRight {
     display: none !important;
+  }
+
+  .wrap {
+    padding-bottom: 100px;
   }
 }

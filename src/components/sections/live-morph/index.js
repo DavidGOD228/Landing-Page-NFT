@@ -21,7 +21,7 @@ const LiveMorph = () => {
           </div>
         </div>
 
-        <img  src={phoneImage} alt=""/>
+        <img className={c.phoneImage}  src={phoneImage} alt=""/>
       </div>
 
     </div>

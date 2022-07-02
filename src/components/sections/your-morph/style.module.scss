@@ -1,6 +1,6 @@
 .wrap {
   background: linear-gradient(180deg, #0f0f0f 56.06%, #000 100%);
-  padding: 160px 0;
+  padding: 170px 0;
 }
 
 .titleWrap {
@@ -16,10 +16,12 @@
   font-size: 110px;
   line-height: 120%;
   color: #fff;
+  max-width: 1070px;
+  margin: 0 auto;
 }
 
 .line {
-  width: 415px;
+  width: 345px;
   height: 170px;
   margin-left: 50%;
   transform: translateX(-100%);
@@ -52,7 +54,7 @@
 
 .person {
   display: grid;
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 16px auto 0 auto;
   grid-template-columns: 370px 1fr;
   column-gap: 80px;
@@ -289,6 +291,10 @@
   .title {
     font-size: 36px;
     text-align: left;
+  }
+
+  .line {
+    height: 80px;
   }
 }
 
