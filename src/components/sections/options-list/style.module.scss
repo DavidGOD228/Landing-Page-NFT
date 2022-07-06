@@ -21,6 +21,14 @@
   row-gap: 30px;
 }
 
+.itemSmall {
+  padding: 62px 35px;
+}
+
+.smallImage {
+  margin-top: 30px;
+}
+
 .borderRight {
   border-right: 1px solid #343A3D;
 }
@@ -97,7 +105,6 @@
   margin: 0 auto;
   color: #fff;
 }
-
 
 @media screen and (max-width: 900px) {
   .top,

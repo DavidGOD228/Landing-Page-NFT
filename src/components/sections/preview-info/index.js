@@ -1,6 +1,6 @@
 import React from 'react'
 import c from './style.module.scss'
-import spotImage from '../../../assets/images/spot.png'
+import spotImage from '../../../assets/images/icons/test.png'
 
 
 const PreviewInfo = () => {

@@ -1,6 +1,11 @@
 import React from 'react'
 import c from './style.module.scss'
 import signImage from '../../../assets/images/icons/sign1.png'
+import signImage2 from '../../../assets/images/icons/sign2.png'
+import signImage3 from '../../../assets/images/icons/sign3.png'
+import signImage4 from '../../../assets/images/icons/sign4.png'
+import signImage5 from '../../../assets/images/icons/sign5.png'
+import signImage6 from '../../../assets/images/icons/sign6.png'
 
 
 const OptionsList = () => {
@@ -27,7 +32,7 @@ const OptionsList = () => {
             </div>
             <div className={`${c.item} ${c.itemMobile}`}>
               <div>
-                <img src={signImage} alt=""/>
+                <img src={signImage2} alt=""/>
               </div>
               <div className={c.secondItemContent}>
                 <h4 className={c.subtitle}>
@@ -47,7 +52,7 @@ const OptionsList = () => {
           <div className={c.center}>
           <div className={`${c.item} ${c.borderRight} ${c.itemMobile}`}>
             <div>
-              <img src={signImage} alt=""/>
+              <img src={signImage3} alt=""/>
             </div>
             <div className={c.secondItemContent}>
               <h4 className={c.subtitle}>
@@ -63,7 +68,7 @@ const OptionsList = () => {
 
           <div className={`${c.item} ${c.itemMobile}`}>
             <div>
-              <img src={signImage} alt=""/>
+              <img src={signImage4} alt=""/>
             </div>
             <div className={`${c.fourthItemContent} ${c.itemContentMobile}`}>
               <h4 className={c.title}>
@@ -83,7 +88,7 @@ const OptionsList = () => {
           <div className={c.bottom}>
           <div className={`${c.item} ${c.borderRight} ${c.itemMobile}`}>
             <div>
-              <img src={signImage} alt=""/>
+              <img src={signImage5} alt=""/>
             </div>
             <div className={c.fifthItemContent}>
               <h4 className={c.title}>
@@ -97,9 +102,9 @@ const OptionsList = () => {
             </div>
           </div>
 
-          <div className={`${c.item} ${c.itemMobile}`}>
+          <div className={`${c.item} ${c.itemMobile} ${c.itemSmall}`}>
             <div>
-              <img src={signImage} alt=""/>
+              <img className={c.smallImage} src={signImage6} alt=""/>
             </div>
             <div className={`${c.sixthItemContent} ${c.itemContentMobile}`}>
               <h4 className={c.subtitle}>
