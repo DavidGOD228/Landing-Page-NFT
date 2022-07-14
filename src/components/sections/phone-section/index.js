@@ -1,8 +1,9 @@
 import React from 'react'
 import  c from './style.module.scss'
+import {MobileVideo} from "../../ui/mobile-video";
 
 
-const PhoneSection = ({title, subtitle, images, phoneImage, iconsTitle, isRevers, isBigPadding}) => {
+const PhoneSection = ({title, subtitle, images, videoPath, iconsTitle, isRevers, isBigPadding}) => {
   const wrapClass = isRevers ? `${c.wrap} ${c.wrapRevers}` : c.wrap
   const wrapClassValue = isBigPadding ? `${wrapClass} ${c.bigPadding}` : wrapClass
   const containerClass = isRevers ? `${c.container} ${c.containerRevers}` : c.container
@@ -35,11 +36,7 @@ const PhoneSection = ({title, subtitle, images, phoneImage, iconsTitle, isRevers
       </div>
     </div>
   )
-  const imageContent = (
-    <div className={c.phoneWrap}>
-      <img className={c.phoneImage} src={phoneImage} alt=""/>
-    </div>
-  )
+  const imageContent = <MobileVideo path={videoPath} />
 
 
   const contentToShow = isRevers ? (

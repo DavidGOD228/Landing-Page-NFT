@@ -1,8 +1,9 @@
 import React from 'react'
 import c from './style.module.scss'
-import phoneImage from '../../../assets/images/phone.png'
 import personImage from '../../../assets/images/person5.png'
 import backgroundDarkImage from '../../../assets/images/bacakground-dark.png'
+import videoFile from '../../../assets/videos/6.mp4'
+import {MobileVideo} from "../../ui/mobile-video";
 
 
 const LiveMorph = () => {
@@ -21,7 +22,7 @@ const LiveMorph = () => {
           </div>
         </div>
 
-        <img className={c.phoneImage}  src={phoneImage} alt=""/>
+        <MobileVideo path={videoFile} />
       </div>
 
     </div>

@@ -9,6 +9,9 @@ import clothingImage3 from '../../../assets/images/icons/clothing3.png'
 import clothingImage4 from '../../../assets/images/icons/clothing4.png'
 import phoneImage from '../../../assets/images/phone4.png'
 import {PhoneSection} from "../phone-section";
+import videoFile1 from '../../../assets/videos/1.mp4'
+import videoFile2 from '../../../assets/videos/5.mp4'
+import videoFile3 from '../../../assets/videos/2.mp4'
 
 const firstItemData = {
   title: 'Moved in an appartment',
@@ -39,6 +42,7 @@ const PhonesWrap = () => {
   return (
     <div>
       <PhoneSection
+        videoPath={videoFile1}
         phoneImage={firstItemData.phoneImage}
         images={firstItemData.images}
         subtitle={firstItemData.subtitle}
@@ -47,6 +51,7 @@ const PhonesWrap = () => {
       />
 
       <PhoneSection
+        videoPath={videoFile2}
         phoneImage={secondItemData.phoneImage}
         images={secondItemData.images}
         subtitle={secondItemData.subtitle}
@@ -56,6 +61,7 @@ const PhonesWrap = () => {
       />
 
       <PhoneSection
+        videoPath={videoFile3}
         phoneImage={thirdItemData.phoneImage}
         images={thirdItemData.images}
         subtitle={thirdItemData.subtitle}
