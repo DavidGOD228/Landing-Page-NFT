@@ -3,8 +3,8 @@ import c from './style.module.scss'
 import signImage from '../../../assets/images/icons/sign1.png'
 import signImage2 from '../../../assets/images/icons/sign2.png'
 import signImage3 from '../../../assets/images/icons/sign3.png'
-import signImage4 from '../../../assets/images/icons/sign4.png'
-import signImage5 from '../../../assets/images/icons/sign5.png'
+import signImage4 from '../../../assets/images/icons/sign5.png'
+import signImage5 from '../../../assets/images/icons/sign4.png'
 import signImage6 from '../../../assets/images/icons/sign6.png'
 
 
@@ -15,7 +15,7 @@ const OptionsList = () => {
       <div className={c.container}>
         <div className={c.itemWrap}>
           <div className={c.top}>
-            <div className={`${c.item} ${c.borderRight} ${c.itemMobile}`}>
+            <div className={`${c.item} ${c.itemFirst} ${c.borderRight} ${c.itemMobile}`}>
               <div>
                 <img src={signImage} alt=""/>
               </div>
@@ -36,7 +36,7 @@ const OptionsList = () => {
               </div>
               <div className={c.secondItemContent}>
                 <h4 className={c.subtitle}>
-                  Unique character
+                  Unpredictable Character
                 </h4>
 
                 <p className={c.text}>
@@ -56,7 +56,7 @@ const OptionsList = () => {
             </div>
             <div className={c.secondItemContent}>
               <h4 className={c.subtitle}>
-                In the capsule
+                Call it skills
               </h4>
 
               <p className={c.text}>
@@ -70,14 +70,13 @@ const OptionsList = () => {
             <div>
               <img src={signImage4} alt=""/>
             </div>
-            <div className={`${c.fourthItemContent} ${c.itemContentMobile}`}>
+            <div className={`${c.secondItemContent} ${c.itemContentMobile}`}>
               <h4 className={c.title}>
-                Life is a story
+                Temperament
               </h4>
 
               <p className={c.text}>
-                Each character is unique is a whole,
-                it is indispensable, each has its own core
+                Morph, is a human simulacrum, created by digital combinations. Each prone to a certain style of behavior.
               </p>
             </div>
           </div>
@@ -92,12 +91,12 @@ const OptionsList = () => {
             </div>
             <div className={c.fifthItemContent}>
               <h4 className={c.title}>
-                Unique to everyone
+                Physical
+                Stats
               </h4>
 
               <p className={c.text}>
-                Each character is unique is a whole,
-                it is indispensable, each has its own core
+                Strength, stamina, speed, flexibility and agility will affect Morph's abilities.
               </p>
             </div>
           </div>
@@ -108,7 +107,8 @@ const OptionsList = () => {
             </div>
             <div className={`${c.sixthItemContent} ${c.itemContentMobile}`}>
               <h4 className={c.subtitle}>
-                Living creature
+                The more perks
+                the better
               </h4>
 
               <p className={c.text}>

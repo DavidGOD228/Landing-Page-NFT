@@ -5,7 +5,7 @@
 
 .wrap {
   height: 937px;
-  background-size: auto 100%;
+  background-size: 1200px 100%;
   background-position-x: center;
   background-repeat: no-repeat;
   display: flex;
@@ -25,6 +25,7 @@
   line-height: 249px;
   letter-spacing: 0.15em;
   color: #fff;
+  text-shadow: #fff 0px 0 8px;
 }
 
 .subtitle {
@@ -34,7 +35,7 @@
   font-size: 100px;
   text-transform: uppercase;
   line-height: 100%;
-  color: rgba(255,255,255, 0.3);
+  color: rgba(255,255,255, 0.5);
   letter-spacing: 10px;
   transform: translateY(28px);
 }
@@ -47,6 +48,10 @@
   .subtitle {
     font-size: 90px;
   }
+
+  .wrapper {
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -55,6 +60,7 @@
   }
 
   .subtitle {
-    font-size: 80px;
+    font-size: 64px;
+    transform: translateY(-10px);
   }
 }

@@ -38,7 +38,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'HelveticaNeueCyr', serif;
-  font-weight: 400;
+  font-weight: 600;
   background: rgba(255, 255, 255, 0.2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,7 +47,7 @@
 
 .dec {
   height: 375px;
-  background: linear-gradient(180deg, rgba(11, 11, 12, 0) 0%, #0B0B0C 95.04%);
+  background: linear-gradient(180deg, rgba(11, 11, 50, 0) 0%, #000 85.04%);
   position: absolute;
   left: 0;
   right: 0;
@@ -90,7 +90,7 @@
     height: 500px;
   }
   .dec {
-    background: linear-gradient(180deg, rgba(11, 11, 12, 0) 0%, #0B0B0C 77.04%);
+    background: linear-gradient(180deg, rgba(12, 12, 11, 0) 0%, #000 99%);
     bottom: 50px;
   }
 }

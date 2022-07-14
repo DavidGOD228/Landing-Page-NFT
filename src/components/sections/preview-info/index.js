@@ -19,7 +19,7 @@ const PreviewInfo = () => {
             it breathes
           </h3>
         </div>
-        <div className={c.imageWrap}>
+        <div className={c.imageWrap} >
           <img src={spotImage} className={c.image} alt=""/>
         </div>
       </div>

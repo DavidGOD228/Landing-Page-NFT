@@ -6,6 +6,7 @@ const PhoneSection = ({title, subtitle, images, phoneImage, iconsTitle, isRevers
   const wrapClass = isRevers ? `${c.wrap} ${c.wrapRevers}` : c.wrap
   const wrapClassValue = isBigPadding ? `${wrapClass} ${c.bigPadding}` : wrapClass
   const containerClass = isRevers ? `${c.container} ${c.containerRevers}` : c.container
+  const iconListClass = isRevers || isBigPadding ? `${c.iconsList} ${c.iconsListRevers}` : c.iconsList
 
   const content = (
     <div className={c.content}>
@@ -22,12 +23,14 @@ const PhoneSection = ({title, subtitle, images, phoneImage, iconsTitle, isRevers
           {iconsTitle}
         </div>
 
-        <div className={c.iconsList}>
-          {
-            images.map(item => (
-              <img src={item} alt=""/>
-            ))
-          }
+        <div className={iconListClass}>
+            {
+              images.map(item => (
+                <div>
+                  <img src={item} alt=""/>
+                </div>
+              ))
+            }
         </div>
       </div>
     </div>
