@@ -1,5 +1,5 @@
 .wrap {
-  height: 1250px;
+  height: 1340px;
   background-size: 100% 100%;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -7,6 +7,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .dec {
@@ -91,7 +92,7 @@
   }
 
   .person {
-    height: 100%;
+    height: 120%;
     opacity: 0.33;
   }
 

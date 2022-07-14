@@ -95,6 +95,22 @@
   font-size: 34px;
   line-height: 100%;
   letter-spacing: 0.16em;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.number > span {
+  transform: translateY(15px);
+}
+
+.faceImage {
+
+}
+
+.faceImageMobile {
+  display: none;
 }
 
 .nameWrap {
@@ -137,6 +153,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  column-gap: 10px;
 }
 
 .codeImage {
@@ -147,7 +164,7 @@
 
 .parameters,
 .skill {
-  margin-top: 32px;
+  margin-top: 25px;
 }
 
 .skillBox {
@@ -160,9 +177,18 @@
 .barWrap {
   margin-top: 40px;
   display: grid;
+  grid-template-columns: 220px 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+.barWrapMobile {
+  margin-top: 40px;
   grid-template-columns: 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
+  padding: 0 20px;
+  display: none;
 }
 
 .barItem {
@@ -182,6 +208,7 @@
   width: 100%;
   margin-top: 10px;
   height: 20px;
+  max-width: 220px;
 }
 
 
@@ -213,13 +240,10 @@
     width: calc(50% - 74px);
   }
 
-  .faceImage {
-    height: 84px;
-  }
 
   .number {
     font-size: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 5px;
   }
 
   .nameTitle {
@@ -235,7 +259,7 @@
   }
 
   .subtitle {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .person {
@@ -266,6 +290,10 @@
     display: none;
   }
 
+  .barWrapMobile {
+    display: grid;
+  }
+
   .skillBox img {
     height: 20px;
   }
@@ -277,6 +305,11 @@
 
   .faceImage {
     display: none;
+  }
+
+  .faceImageMobile {
+    height: 84px;
+    display: block;
   }
 
   .parametersName {
@@ -295,6 +328,10 @@
 
   .line {
     height: 80px;
+  }
+
+  .skillBox {
+    column-gap: 10px;
   }
 }
 

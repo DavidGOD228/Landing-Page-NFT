@@ -85,7 +85,9 @@ const YourMorph = () => {
           <div className={c.info}>
             <div className={c.aboutPerson}>
               <h5 className={c.number}>
-                #732
+                <span>#732</span>
+
+                <img className={c.faceImageMobile} src={faceImage} alt=""/>
               </h5>
 
               <div className={c.nameWrap}>
@@ -134,12 +136,12 @@ const YourMorph = () => {
           <div className={c.skill}>
             <h5 className={c.nameTitle}>Skill</h5>
             <div className={c.skillBox}>
+              <img src={skill6} alt=""/>
               <img src={skill1} alt=""/>
               <img src={skill2} alt=""/>
               <img src={skill3} alt=""/>
               <img src={skill4} alt=""/>
               <img src={skill5} alt=""/>
-              <img src={skill6} alt=""/>
             </div>
           </div>
 
@@ -154,6 +156,17 @@ const YourMorph = () => {
             }
           </div>
         </div>
+      </div>
+
+      <div className={c.barWrapMobile}>
+        {
+          barData.map(item => (
+            <div key={item.title + "2"} className={c.barItem}>
+              <h6 className={c.barTitle}>{item.title}</h6>
+              <img className={c.barImage} src={item.image} alt=""/>
+            </div>
+          ))
+        }
       </div>
     </div>
   )

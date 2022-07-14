@@ -1,6 +1,6 @@
 import React from 'react'
 import c from './style.module.scss'
-import badgeImage from '../../../../../assets/images/badge.png'
+import badgeImage2 from '../../../../../assets/images/badge2.png'
 
 
 const YourMorphCards = () => {
@@ -8,9 +8,9 @@ const YourMorphCards = () => {
   return (
     <div className={c.wrap}>
       {
-        [1,2,3,4,5].map(item => (
+        [1,2,3,4,5,6,7].map(item => (
           <div key={item} className={c.imageWrap}>
-            <img className={c.image} src={badgeImage} alt=""/>
+            <img className={c.image} src={item === 4 ? badgeImage2 : badgeImage2} alt=""/>
           </div>
         ))
       }

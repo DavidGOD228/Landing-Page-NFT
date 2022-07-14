@@ -2,15 +2,14 @@
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  column-gap: 10px;
 }
 
 .image {
-  height: 405px;
   border-radius: 8px;
+  margin-left: -30px;
 }
 
-.wrap > div:nth-child(3) {
+.wrap > div:nth-child(4) {
   transform: translateY(-30px);
 }
 
