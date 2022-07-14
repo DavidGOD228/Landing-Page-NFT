@@ -17,12 +17,14 @@ import {UniqueMorphs} from "../../components/sections/unique-morphs";
 import {YourMorph} from "../../components/sections/your-morph";
 import {WhiteList} from "../../components/sections/white-list";
 import {PhonesWrap} from "../../components/sections/phones-wrap";
+import {Tether} from "../../components/sections/tether";
 
 
 const HomePage = () => {
 
   return (
     <div>
+      <Tether />
       <Preview />
       <PreviewInfo />
       <About />

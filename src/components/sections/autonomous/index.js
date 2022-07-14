@@ -1,8 +1,11 @@
 import React from 'react'
 import c from './style.module.scss'
-import phoneImage from '../../../assets/images/phone2.png'
-import iphoneImage from '../../../assets/images/phone3.png'
 import smileImage from '../../../assets/images/smile.png'
+import {MobileVideo} from "../../ui/mobile-video";
+import videoFile1 from '../../../assets/videos/3.mp4'
+import videoFile2 from '../../../assets/videos/1.mp4'
+import videoFile3 from '../../../assets/videos/4.mp4'
+
 
 const Autonomous = () => {
 
@@ -17,15 +20,15 @@ const Autonomous = () => {
 
       <div className={c.container}>
         <div>
-          <img src={phoneImage} className={c.phoneImage} alt=""/>
+          <MobileVideo path={videoFile1} />
         </div>
 
         <div className={c.rightWrap}>
-          <img src={phoneImage} className={c.phoneImage} alt=""/>
+          <MobileVideo path={videoFile2} />
         </div>
 
         <div>
-          <img src={iphoneImage} className={c.phoneImage} alt=""/>
+          <MobileVideo path={videoFile3} />
         </div>
 
         <div className={c.imageBlock}>
