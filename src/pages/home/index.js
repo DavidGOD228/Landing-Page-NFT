@@ -24,16 +24,7 @@ import LoaderMobile from '../../assets/loaders/Gif-1080x1920.gif'
 
 const HomePage = () => {
     const [isLoading, setLoading] = useState(true)
-  const meta = {
-    title: 'Some Meta Title',
-    description: 'I am a description, and I can create multiple tags',
-    meta: {
-      charset: 'utf-8',
-      name: {
-        keywords: 'react,meta,document,html,tags'
-      }
-    }
-  }
+
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)

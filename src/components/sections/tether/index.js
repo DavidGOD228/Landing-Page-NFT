@@ -65,7 +65,7 @@ const Tether = ({isVideoStarted, setVideoStarted}) => {
 
   return (
     <div className={c.wrap} style={{pointerEvents: isVideoVisible? 'all': 'none'}}>
-      <video onClick={() => handleVideoPlay(isPlaying ? 'pause': 'play')} className={c.video} autoPlay={false} muted={isMuted} ref={videoRef} onEnded={restartVideo}>
+      <video onClick={() => handleVideoPlay(isPlaying ? 'pause': 'play')} className={c.video} autoPlay={false} muted={isMuted} ref={videoRef} onEnded={restartVideo} playsInline={true}>
         <source src={video} type="video/mp4" />
       </video>
       {
