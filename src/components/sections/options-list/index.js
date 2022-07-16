@@ -25,8 +25,7 @@ const OptionsList = () => {
                 </h4>
 
                 <p className={c.text}>
-                  Each character is unique is a whole,
-                  it is indispensable, each has its own core
+                  After minting, each morph takes on its own unique and distinctive appearance.
                 </p>
               </div>
             </div>
@@ -40,8 +39,8 @@ const OptionsList = () => {
                 </h4>
 
                 <p className={c.text}>
-                  Each character is unique is a whole,
-                  it is indispensable, each has its own core
+                  Individual personality traits that define
+                  a Morph's unique behavior.
                 </p>
               </div>
             </div>
@@ -60,8 +59,8 @@ const OptionsList = () => {
               </h4>
 
               <p className={c.text}>
-                Each character is unique is a whole,
-                it is indispensable, each has its own core
+                Morphs learn and evolve. Everyone
+                has a different disposition. Learn, experiment, benefit.
               </p>
             </div>
           </div>
@@ -101,7 +100,7 @@ const OptionsList = () => {
             </div>
           </div>
 
-          <div className={`${c.item} ${c.itemMobile} ${c.itemSmall}`}>
+          <div className={`${c.item} ${c.itemMobile}`}>
             <div>
               <img className={c.smallImage} src={signImage6} alt=""/>
             </div>

@@ -12,10 +12,11 @@ const Autonomous = () => {
   return (
     <div className={c.wrap}>
       <h3 className={c.title}>
-        He lives autonomous
+        Respect his
+        privacy!
       </h3>
       <h4 className={c.subtitle}>
-        Each character is unique is a whole, it each has its own coreis indispensable, each has its own core
+        Morph lives his private life, would you like to be spied on?
       </h4>
 
       <div className={c.container}>
@@ -46,7 +47,7 @@ const Autonomous = () => {
 
       <div className={c.bottomWrap}>
         <h3 className={c.bottomText}>
-          Challenge yourself with other players in the world of Agaron. A changeable world with different opportunities and dangers
+          Challenge other players in the world of Metamorph to improve the version of your morph.
         </h3>
       </div>
     </div>

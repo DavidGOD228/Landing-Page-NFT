@@ -23,7 +23,7 @@ const MetaMorph = () => {
     <div className={c.wrap}>
       <h2 className={c.title}>
         Metamorph
-        &metaverse
+        & metaverse
       </h2>
 
       <div className={c.planets} style={{backgroundImage: `url("${imageValue}")`}} />

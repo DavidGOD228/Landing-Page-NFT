@@ -4,11 +4,11 @@ import personRight from '../../../assets/images/person2.png'
 import personLeft from '../../../assets/images/person3.png'
 
 const mockData = [
-  {title: 'a Creature', subtitle: "a unique morph"},
-  {title: 'a Ai', subtitle: "a unique clothes morph"},
-  {title: 'a Soul', subtitle: "a unique clothes morph"},
-  {title: 'a Cyberfriend', subtitle: "a unique morph"},
-  {title: '92.222', subtitle: "a unique morph"}
+  {title: 'a Creature', subtitle: "A digital organism"},
+  {title: 'a Soul', subtitle: "A non-material entity"},
+  {title: 'a Cyberfriend', subtitle: "Mutual affection"},
+  {title: 'a Ai', subtitle: "not quite or not yet"},
+  {title: '9.999', subtitle: "Emotions"}
 ]
 
 const Information = () => {

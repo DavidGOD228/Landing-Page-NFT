@@ -1,5 +1,5 @@
 .wrap {
-  background: linear-gradient(180deg, #0f0f0f 56.06%, #000 100%);
+  background: linear-gradient(180deg, #17171A 56.06%, rgba(23, 23, 26, 0) 100%);
   padding: 170px 0;
 }
 
@@ -55,7 +55,7 @@
 .person {
   display: grid;
   max-width: 1080px;
-  margin: 16px auto 0 auto;
+  margin: 25px auto 0 auto;
   grid-template-columns: 370px 1fr;
   column-gap: 80px;
 }
@@ -141,6 +141,7 @@
   font-family: 'Dharma Gothic E', serif;
   font-size: 12px;
   letter-spacing: 0.68em;
+  line-height: 14px;
 }
 
 .codeWrap {
@@ -178,7 +179,7 @@
   margin-top: 40px;
   display: grid;
   grid-template-columns: 220px 1fr;
-  column-gap: 15px;
+  column-gap: 90px;
   row-gap: 40px;
 }
 
@@ -195,6 +196,12 @@
 
 }
 
+.barProgress {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .barTitle {
   font-family: 'AvantGardeC', serif;
   font-style: normal;
@@ -205,12 +212,17 @@
 }
 
 .barImage {
-  width: 100%;
-  margin-top: 10px;
   height: 20px;
   max-width: 220px;
 }
 
+.barPercentage {
+  font-family: 'AvantGardeC', serif;
+  font-size: 21.2851px;
+  line-height: 25px;
+  margin-left: 15px;
+  color: #fff;
+}
 
 @media screen and (max-width: 1200px) {
   .person {
@@ -294,8 +306,9 @@
     display: grid;
   }
 
-  .skillBox img {
-    height: 20px;
+  .skillBox svg {
+    height: 35px;
+    width: 35px;
   }
 
   .parameters,
@@ -332,6 +345,25 @@
 
   .skillBox {
     column-gap: 10px;
+  }
+
+  .barPercentage {
+    font-size: 14px;
+  }
+
+  .barTitle{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .barImage {
+    max-width: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skillBox svg {
+    height: 25px;
+    width: 25px;
   }
 }
 

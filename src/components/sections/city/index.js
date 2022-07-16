@@ -11,10 +11,7 @@ const City = () => {
         Balarama City
       </h2>
       <h3 className={c.subtitle}>
-        Cyber DNA represents the cybernetic imprint that
-        identifies each Morph, in fact, it contains a crossroads of information that
-        determine the future genetic combination of your Morph starting from the physical aspect
-        up to the deepest cratterial traits
+        Balarama city is a digital city on the coast of the Balarama River, one of the longest rivers on the planet Purgatorium 8. Balarama is famous for its ultra-modern architecture, the silhouette of the city formed by countless skyscrapers, inhabitants and temporary visitors. The city is considered the starting point of every Morph for interpreting his consciousness and mastering a new reality, a digital consciousness.
       </h3>
 
       <div className={c.cityWrap} style={{backgroundImage: `url("${cityImage}")`}} />

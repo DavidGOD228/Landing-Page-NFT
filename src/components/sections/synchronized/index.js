@@ -10,7 +10,7 @@ const Synchronized = () => {
   return (
     <div className={c.wrap}>
       <div className={c.textWrap}>
-        <h3 className={c.textTop}>Synchronized</h3>
+        <h3 className={c.textTop}>Synchronize</h3>
         <h3 className={c.textCenter}>with your</h3>
         <h3 className={c.textBottom}>Morph</h3>
       </div>
@@ -24,8 +24,8 @@ const Synchronized = () => {
               <SynchronizedLine />
 
               <SynchronizedContent
-                title="Consciosness"
-                text="Human beings have awareness of themselves, others and their environment"
+                title="Web3 "
+                text="Experience the transparent synchronization of worlds through decentralization"
               />
             </div>
 
@@ -33,7 +33,7 @@ const Synchronized = () => {
               <SynchronizedLine />
 
               <SynchronizedContent
-                title="Consciosness"
+                title="Connect device"
                 text="Human beings have awareness of themselves, others and their environment"
               />
 
@@ -43,8 +43,8 @@ const Synchronized = () => {
               <SynchronizedLine />
 
               <SynchronizedContent
-                title="Consciosness"
-                text="Human beings have awareness of themselves, others and their environment"
+                title="Activate CyberDNA"
+                text="Initialize your morph DNA by connecting your wallet"
               />
             </div>
 

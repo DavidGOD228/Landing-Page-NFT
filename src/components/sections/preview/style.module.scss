@@ -1,10 +1,16 @@
 .wrap {
   background: #000;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container {
   text-align: center;
-  padding-top: 238px;
+  padding-top: 120px;
 }
 
 .title {
@@ -23,6 +29,7 @@
   height: 700px;
   overflow: hidden;
   text-align: center;
+  position: relative;
 }
 
 .image > img {
@@ -83,4 +90,20 @@
   .title {
     letter-spacing: 3px;
   }
+}
+
+.videoButton {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 36px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  position: absolute;
+  background: none;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }

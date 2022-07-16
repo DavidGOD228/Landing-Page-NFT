@@ -25,10 +25,6 @@
   -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#343A3D))0 100% 0 0 stretch;
 }
 
-.itemSmall {
-  padding: 62px 35px;
-}
-
 .smallImage {
   margin-top: 30px;
 }
@@ -164,5 +160,8 @@
 
   .bottom > div:nth-child(2) {
     border-bottom: none;
+  }
+  .bottom > div:nth-child(7) {
+    border-top: 1px solid #343A3D;
   }
 }

@@ -1,6 +1,6 @@
 
 .video {
-
+  position: relative;
 }
 
 .videoWrap {
@@ -27,6 +27,18 @@
   align-items: center;
 }
 
+.video:after {
+  content: '';
+  position: absolute;
+  width: 416px;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(220.91deg, #000000 10.47%, rgba(0, 0, 0, 0.05) 61.13%);
+  filter: blur(20px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 .videoWrap:before {
   content: "";
   background: #343a3d;
@@ -35,7 +47,7 @@
   width: 154px;
   height: 24px;
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1620;
@@ -46,9 +58,9 @@
   background: #f5f5f5;
   border-radius: 5px;
   width: 124px;
-  height: 8px;
+  height: 5px;
   position: absolute;
-  bottom: 20px;
+  bottom: 8px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1620;
