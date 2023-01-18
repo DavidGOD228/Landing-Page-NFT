@@ -1,0 +1,167 @@
+.wrap {
+  background: #000;
+}
+
+.container {
+
+}
+
+.itemWrap {
+  border-bottom: 1px solid #343A3D;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+}
+
+.item {
+  padding: 62px 60px;
+  display: grid;
+  row-gap: 30px;
+}
+
+.itemFirst {
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#343A3D))0 100% 0 0 stretch;
+}
+
+.smallImage {
+  margin-top: 30px;
+}
+
+.borderRight {
+  border-right: 1px solid #343A3D;
+}
+
+.firstItemContent {
+  display: grid;
+  grid-template-columns: 14fr 10fr;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 550;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.text {
+  font-family: 'AvantGardeC', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #80898F;
+}
+
+.secondItemContent {
+  display: grid;
+  row-gap: 16px;
+}
+
+.subtitle {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 550;
+  font-size: 28px;
+  line-height: 120%;
+}
+
+
+.center {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+}
+
+.fourthItemContent {
+  display: grid;
+  grid-template-columns: 170px 220px;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+
+
+.fifthItemContent {
+  display: grid;
+  row-gap: 16px;
+  grid-template-columns: 200px 1fr;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.sixthItemContent {
+  display: grid;
+  grid-template-columns: 128px 270px;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.top,
+.center,
+.bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .top,
+  .center,
+  .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .top > div,
+  .center > div,
+  .bottom > div {
+    border-bottom: 1px solid #343A3D;
+  }
+
+  .itemWrap {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    padding: 20px;
+  }
+
+  .itemMobile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    column-gap: 50px;
+  }
+
+  .itemContentMobile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: flex-start;
+  }
+
+  .fifthItemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .title,
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .bottom > div:nth-child(2) {
+    border-bottom: none;
+  }
+  .bottom > div:nth-child(7) {
+    border-top: 1px solid #343A3D;
+  }
+}

@@ -1,0 +1,53 @@
+.wrap {
+  background: #000;
+  padding: 40px 0;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 765px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.planets {
+  margin-top: 64px;
+  height: 570px;
+  background-size: auto 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 58px;
+  }
+
+  .planets {
+    margin-top: 20px;
+    height: 300px;
+    background-size: cover;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrap {
+    padding: 10px 0 40px 0;
+  }
+  .planets {
+    height: 250px;
+  }
+}

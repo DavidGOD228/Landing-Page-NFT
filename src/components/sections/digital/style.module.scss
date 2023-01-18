@@ -1,0 +1,41 @@
+.wrap {
+  padding: 205px 20px;
+  background: #f4f4f4;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: #80898F;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 120%;
+}
+
+.blackText {
+  color: #0B0B0C;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 70px;
+  }
+
+  .wrap {
+    padding: 100px 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+    text-align: left;
+  }
+
+  .wrap {
+    padding: 90px 20px;
+  }
+}

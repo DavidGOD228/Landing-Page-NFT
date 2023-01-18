@@ -1,0 +1,54 @@
+.wrap {
+  background: #000;
+}
+
+.container {
+  padding: 140px 20px 140px 20px;
+  display: grid;
+  row-gap: 50px;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: #80898F;
+  line-height: 100%;
+}
+
+.title span {
+  color: #fff;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: 'AvantGardeC', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #80898F;
+  max-width: 624px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 56px;
+  }
+
+  .text {
+    text-align: left;
+  }
+}

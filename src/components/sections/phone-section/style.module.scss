@@ -1,0 +1,140 @@
+.wrap {
+  padding: 150px 0;
+  background: #17191B;
+}
+
+.wrapRevers {
+  background: #000;
+  padding: 175px 0;
+}
+
+.bigPadding {
+  padding: 180px 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 270px;
+  max-width: 900px;
+  margin: 0 auto;
+  column-gap: 109px;
+}
+
+.content {
+  text-align: left;
+}
+
+.containerRevers {
+  grid-template-columns: 270px 1fr;
+  column-gap: 200px;
+}
+
+.title {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.subtitle {
+  font-family: 'AvantGardeC', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #80898F;
+  margin-top: 24px;
+}
+
+.iconsWrap {
+  margin-top: 64px;
+}
+
+.iconTitle {
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #FFFFFF;
+  max-width: 239px;
+}
+
+.iconsList {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 24px;
+}
+
+.iconsListRevers > div {
+  background: #303237;
+  padding: 10px;
+  width: 101px;
+  height: 101px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconsList img {
+  height: 102px;
+  width: 102px;
+}
+
+.iconsListRevers img {
+  height: 90px;
+  width: 90px;
+}
+
+.phoneImage {
+  width: 270px;
+}
+
+.phoneWrap {
+  text-align: center !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrap {
+    padding: 100px 20px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .iconTitle {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+
+  .phoneWrap {
+    text-align: center;
+  }
+
+  .iconsListRevers > div {
+    width: 77px;
+    height: 77px;
+  }
+
+  .iconsList img,
+  .iconsListRevers {
+    width: 77px;
+    height: 77px;
+  }
+
+  .containerRevers {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+

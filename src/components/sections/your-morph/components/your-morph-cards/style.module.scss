@@ -1,0 +1,19 @@
+.wrap {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20px;
+}
+
+.image {
+  border-radius: 8px;
+  margin-left: -30px;
+}
+
+.wrap > div:nth-child(4) {
+  transform: translateY(-30px);
+}
+
+.imageWrap {
+
+}

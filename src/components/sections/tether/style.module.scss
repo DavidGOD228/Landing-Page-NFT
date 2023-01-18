@@ -1,0 +1,46 @@
+.wrap {
+  position: absolute;
+  font-family: 'HelveticaNeueCyr', serif;
+  font-weight: 500;
+}
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.videoButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  position: absolute;
+  background: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.mainPlayBtn {
+  font-size: 1.3rem;
+}
+
+.videoPlay {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.videoSound {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
